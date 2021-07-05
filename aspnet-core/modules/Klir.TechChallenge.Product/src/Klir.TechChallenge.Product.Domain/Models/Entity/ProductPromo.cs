@@ -1,10 +1,11 @@
-﻿using Klir.TechChallenge.Product.Domain.Models.Enum;
+﻿
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Klir.TechChallenge.SharedLib.Shared.Enum;
 
 namespace Klir.TechChallenge.Product.Domain.Models.Entity
 {

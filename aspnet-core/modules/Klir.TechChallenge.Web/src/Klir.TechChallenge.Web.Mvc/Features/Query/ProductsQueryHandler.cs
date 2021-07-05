@@ -15,8 +15,8 @@ namespace Klir.TechChallenge.Web.Mvc.Features.Query
     {
 
         private const string baseUrl = "http://localhost:32152/";
-        private readonly ILogger _logger;
-        public ProductsQueryHandler(ILogger logger)
+        private readonly ILogger<ProductsQueryHandler> _logger;
+        public ProductsQueryHandler(ILogger<ProductsQueryHandler> logger)
         {
             _logger = logger;
         }

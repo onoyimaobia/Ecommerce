@@ -3,12 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
+using Klir.TechChallenge.Web.Domain.Models.Entity;
 using Klir.TechChallenge.Web.Infrastructure;
 using Klir.TechChallenge.Web.Infrastructure.DataContext;
+using Klir.TechChallenge.Web.Mvc.Ultility;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -37,7 +40,8 @@ namespace Klir.TechChallenge.Web.Mvc
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env,
+            AppDbContext appDbContext, UserManager<Persona> userManager)
         {
             if (env.IsDevelopment())
             {
@@ -63,6 +67,9 @@ namespace Klir.TechChallenge.Web.Mvc
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
+            Seeds.SeedUserRole(appDbContext);
+            Seeds.SeedRootAdmin(userManager, appDbContext);
+            Seeds.SeedImageSliders(appDbContext);
         }
     }
 }

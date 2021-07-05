@@ -22,16 +22,16 @@ namespace Klir.TechChallenge.Product.Web.Api.Features.Command
         {
             var promo = new ProductPromo
             {
-                Price = request.Payload.Price,
-                Description = request.Payload.Description,
-                Name = request.Payload.Name,
-                ImageUrl = request.Payload.ImageUrl,
-                ProductType = request.Payload.ProductType,
-                CreatedById = request.Payload.CreatedById
+                DiscountProductQuantity = request.Payload.DiscountProductQuantity,
+                DiscountProductPrice = request.Payload.DiscountProductPrice,
+                NumberOfFreeProduct = request.Payload.NumberOfFreeProduct,
+                ProductId = request.Payload.ProductId,
+                ProductPromoType = request.Payload.ProductPromoType,
+                ProductQuantity = request.Payload.ProductQuantity
 
             };
             // to do add cancellationtoken very important
-            var result = await _respository.AddProductAsync(product);
+            var result = await _respository.AddPromoAsync(promo);
             return result;
         }
     }

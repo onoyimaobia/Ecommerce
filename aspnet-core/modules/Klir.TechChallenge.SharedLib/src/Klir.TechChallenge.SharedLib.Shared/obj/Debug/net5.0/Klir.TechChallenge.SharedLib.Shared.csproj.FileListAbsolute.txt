@@ -12,3 +12,17 @@ C:\Users\tooch\source\repos\KlirTechChallenge\KlirTechChallenge\aspnet-core\modu
 C:\Users\tooch\source\repos\KlirTechChallenge\KlirTechChallenge\aspnet-core\modules\Klir.TechChallenge.SharedLib\src\Klir.TechChallenge.SharedLib.Shared\obj\Debug\net5.0\ref\Klir.TechChallenge.SharedLib.Shared.dll
 C:\Users\tooch\source\repos\KlirTechChallenge\KlirTechChallenge\aspnet-core\modules\Klir.TechChallenge.SharedLib\src\Klir.TechChallenge.SharedLib.Shared\obj\Debug\net5.0\Klir.TechChallenge.SharedLib.Shared.xml
 C:\Users\tooch\source\repos\KlirTechChallenge\KlirTechChallenge\aspnet-core\modules\Klir.TechChallenge.SharedLib\src\Klir.TechChallenge.SharedLib.Shared\obj\Debug\net5.0\Klir.TechChallenge.SharedLib.Shared.pdb
+C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.SharedLib\src\Klir.TechChallenge.SharedLib.Shared\bin\Debug\net5.0\Klir.TechChallenge.SharedLib.Shared.deps.json
+C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.SharedLib\src\Klir.TechChallenge.SharedLib.Shared\bin\Debug\net5.0\Klir.TechChallenge.SharedLib.Shared.dll
+C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.SharedLib\src\Klir.TechChallenge.SharedLib.Shared\bin\Debug\net5.0\ref\Klir.TechChallenge.SharedLib.Shared.dll
+C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.SharedLib\src\Klir.TechChallenge.SharedLib.Shared\bin\Debug\net5.0\Klir.TechChallenge.SharedLib.Shared.pdb
+C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.SharedLib\src\Klir.TechChallenge.SharedLib.Shared\bin\Debug\net5.0\Klir.TechChallenge.SharedLib.Shared.xml
+C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.SharedLib\src\Klir.TechChallenge.SharedLib.Shared\obj\Debug\net5.0\Klir.TechChallenge.SharedLib.Shared.csprojAssemblyReference.cache
+C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.SharedLib\src\Klir.TechChallenge.SharedLib.Shared\obj\Debug\net5.0\Klir.TechChallenge.SharedLib.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.SharedLib\src\Klir.TechChallenge.SharedLib.Shared\obj\Debug\net5.0\Klir.TechChallenge.SharedLib.Shared.AssemblyInfoInputs.cache
+C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.SharedLib\src\Klir.TechChallenge.SharedLib.Shared\obj\Debug\net5.0\Klir.TechChallenge.SharedLib.Shared.AssemblyInfo.cs
+C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.SharedLib\src\Klir.TechChallenge.SharedLib.Shared\obj\Debug\net5.0\Klir.TechChallenge.SharedLib.Shared.csproj.CoreCompileInputs.cache
+C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.SharedLib\src\Klir.TechChallenge.SharedLib.Shared\obj\Debug\net5.0\Klir.TechChallenge.SharedLib.Shared.dll
+C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.SharedLib\src\Klir.TechChallenge.SharedLib.Shared\obj\Debug\net5.0\ref\Klir.TechChallenge.SharedLib.Shared.dll
+C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.SharedLib\src\Klir.TechChallenge.SharedLib.Shared\obj\Debug\net5.0\Klir.TechChallenge.SharedLib.Shared.xml
+C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.SharedLib\src\Klir.TechChallenge.SharedLib.Shared\obj\Debug\net5.0\Klir.TechChallenge.SharedLib.Shared.pdb

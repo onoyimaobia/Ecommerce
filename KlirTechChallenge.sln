@@ -63,8 +63,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{109873BC-4EB
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Klir.TechChallenge.SharedLib.Shared", "aspnet-core\modules\Klir.TechChallenge.SharedLib\src\Klir.TechChallenge.SharedLib.Shared\Klir.TechChallenge.SharedLib.Shared.csproj", "{ACBCF0D7-9E4A-4FDD-B700-33168C0902F3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Klir.TechChallenge.SharedLib.Register", "aspnet-core\modules\Klir.TechChallenge.SharedLib\src\Klir.TechChallenge.SharedLib.Register\Klir.TechChallenge.SharedLib.Register.csproj", "{C2963054-F40A-4688-952D-DA5AD934253B}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,10 +133,6 @@ Global
 		{ACBCF0D7-9E4A-4FDD-B700-33168C0902F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACBCF0D7-9E4A-4FDD-B700-33168C0902F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACBCF0D7-9E4A-4FDD-B700-33168C0902F3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C2963054-F40A-4688-952D-DA5AD934253B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C2963054-F40A-4688-952D-DA5AD934253B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C2963054-F40A-4688-952D-DA5AD934253B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C2963054-F40A-4688-952D-DA5AD934253B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -173,7 +167,6 @@ Global
 		{BF9FF59B-51F4-4878-BEAC-3C700A5EA030} = {DB7F69DE-0B58-457F-A255-DE6A4E8EC534}
 		{109873BC-4EB0-4CBB-9FC8-78A0CDECA27C} = {BF9FF59B-51F4-4878-BEAC-3C700A5EA030}
 		{ACBCF0D7-9E4A-4FDD-B700-33168C0902F3} = {109873BC-4EB0-4CBB-9FC8-78A0CDECA27C}
-		{C2963054-F40A-4688-952D-DA5AD934253B} = {109873BC-4EB0-4CBB-9FC8-78A0CDECA27C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0D47B954-A3E6-48B0-ADEE-49F5898C2299}

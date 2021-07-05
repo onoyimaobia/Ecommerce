@@ -17,8 +17,8 @@ namespace Klir.TechChallenge.Web.Mvc.Features.Command.Product
     public class CreatePromoCommandHandler : ICommandHandler<CreatePromoCommand, StatusResponse>
     {
         private const string baseUrl = "http://localhost:32152/";
-        private readonly ILogger _logger;
-        public CreatePromoCommandHandler(ILogger logger)
+        private readonly ILogger<CreatePromoCommandHandler> _logger;
+        public CreatePromoCommandHandler(ILogger<CreatePromoCommandHandler> logger)
         {
             _logger = logger;
         }

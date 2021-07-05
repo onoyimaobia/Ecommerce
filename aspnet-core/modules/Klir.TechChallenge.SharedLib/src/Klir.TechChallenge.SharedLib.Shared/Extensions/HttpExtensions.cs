@@ -19,8 +19,8 @@ namespace Klir.TechChallenge.SharedLib.Shared.Extensions
 
         public static Task<HttpResponseMessage> PostAsJsonStringAsync(this HttpClient httpClient, string url, string data)
         {
-            var content = new StringContent(data);
-            content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+            var content = new StringContent(data, Encoding.UTF8, "application/json");
+            //content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
 
             return httpClient.PostAsync(url, content);
         }

@@ -326,6 +326,12 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:Klir.TechChallenge.Product.Domain.Repository.IProductRespository.GetAllPromoasync">
+            <summary>
+            get all producs 
+            </summary>
+            <returns></returns>
+        </member>
         <member name="M:Klir.TechChallenge.Product.Domain.Repository.IProductRespository.AddProductAsync(Klir.TechChallenge.Product.Domain.Models.Entity.Product)">
             <summary>
             add product
@@ -352,6 +358,13 @@
             delete product
             </summary>
             <param name="product"></param>
+        </member>
+        <member name="M:Klir.TechChallenge.Product.Domain.Repository.IProductRespository.AddPromoAsync(Klir.TechChallenge.Product.Domain.Models.Entity.ProductPromo)">
+            <summary>
+            add product
+            </summary>
+            <param name="payload"></param>
+            <returns>list of ProductResource</returns>
         </member>
         <member name="T:Klir.TechChallenge.Product.Domain.Service.IProductService">
             <summary>

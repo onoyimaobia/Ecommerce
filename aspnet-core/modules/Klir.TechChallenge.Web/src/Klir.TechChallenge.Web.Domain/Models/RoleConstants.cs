@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Klir.TechChallenge.Web.Domain.Models.Entity;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,5 +12,10 @@ namespace Klir.TechChallenge.Web.Domain.Models
         public const string Admin = "Admin";
         public const string SuperAdmin = "Super Admin";
         public const string user = "User";
+
+        public static Role GetDefaultOperationsRole() => new Role
+        {
+            Name = SuperAdmin
+        };
     }
 }

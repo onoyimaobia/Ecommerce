@@ -4,36 +4,48 @@
 *@
 
 
-@foreach (var food in Model)
+@foreach (var product in Model)
 {
         <div class="col-md-3">
             <div class="card">
-                @{var item = @food.ImageUrl.Split(".").Last(); }
+                @{var item = product.ImageUrl.Split(".").Last(); }
                 @if (item == "mp4")
                 {
         <video loop="loop" muted autoplay="autoplay" style="width:100%; max-height:100%;">
-            <source src="@Url.Content(food.ImageUrl)" type="video/mp4" />
+            <source src="@Url.Content(product.ImageUrl)" type="video/mp4" />
         </video> }
                         else
                         {
-        <img src="@Url.Content(food.ImageUrl)" class=" card-img-top img-fluid" height="50" width="100">}
-                <div class="card-body" style="padding:0">
-                    <div class="col-sm-12" style="padding:0">
-                        <h6 style="text-align:center">@food.Name</h6>
-                    </div>
-                   
-                    <div class="col-sm-12">
-                        <div class="row">
-                            <div class="col-sm-6" style="padding:0">
-                                <p> Price: ₦@(string.Format("{0:N}", food.Price))</p>
+        <img src="@Url.Content(product.ImageUrl)" class=" card-img-top img-fluid" height="50" width="100">}
+            <div class="card-body" style="padding:0">
+                <div class="col-sm-12" style="padding:0">
+                    <h6 style="text-align:center">@product.Name</h6>
+                </div>
 
-                            </div>
-                            <div class="col-sm-6">
-                                <a class="btn btn-primary btn-sm pull-right" asp-route-id="@food.Id" asp-controller="ShoppingCart" asp-action="Create"> Detail</a>
-                            </div>
+                <div class="col-sm-12">
+                    <div class="row">
+                        <div class="col-sm-6" style="padding:0">
+                            <p> Price: $@(string.Format("{0:N}", product.Price))</p>
+
+                        </div>
+                        <div class="col-sm-6">
+                            <a class="btn btn-primary btn-sm pull-right" asp-route-id="@product.Id" asp-controller="ShoppingCart" asp-action="Create"> Detail</a>
                         </div>
                     </div>
                 </div>
+                @if (product.PromoResource.PromoDescription != null)
+                {
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <div class="col-sm-11" style="padding:0">
+                                <p> <strong>Price: </strong> @product.PromoResource.PromoDescription</p>
+
+                            </div>
+                        </div>
+                    </div>
+                }
+
+            </div>
             </div>
         </div>
  }

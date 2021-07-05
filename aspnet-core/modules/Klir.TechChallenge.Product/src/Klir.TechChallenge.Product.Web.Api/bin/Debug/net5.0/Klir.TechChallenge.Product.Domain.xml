@@ -280,6 +280,11 @@
             promotion type
             </summary>
         </member>
+        <member name="P:Klir.TechChallenge.Product.Domain.Models.Entity.ProductPromo.PromoDescription">
+            <summary>
+            promotion description
+            </summary>
+        </member>
         <member name="T:Klir.TechChallenge.Product.Domain.Models.Enum.ProductPromoType">
             <summary>
             promotion type

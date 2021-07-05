@@ -70,15 +70,15 @@ namespace Klir.TechChallenge.Web.Mvc.Controllers
             }
             return RedirectToAction(nameof(Index));
         }
-        public ActionResult CreatePromo()
+        public async Task<ActionResult> CreatePromo()
         {
 
             if (TempData["ErrorStatus"] != null)
             {
                 ViewBag.ErrorStatus = TempData["ErrorStatus"].ToString();
             }
-            var products = _mediator.Send(new ProductsQuery());
-            ViewBag.produst = products;
+            var products = await _mediator.Send(new ProductsQuery());
+            ViewBag.products = products;
             return View();
         }
 
@@ -99,6 +99,7 @@ namespace Klir.TechChallenge.Web.Mvc.Controllers
                         if (result.Status)
                         {
                             TempData["SuccessStatus"] = "promo Created Successfully";
+                            return RedirectToAction("Index");
                         }
                         else
                         {
@@ -116,7 +117,7 @@ namespace Klir.TechChallenge.Web.Mvc.Controllers
             {
                 return View();
             }
-            return RedirectToAction(nameof(Index));
+           
         }
     }
 }

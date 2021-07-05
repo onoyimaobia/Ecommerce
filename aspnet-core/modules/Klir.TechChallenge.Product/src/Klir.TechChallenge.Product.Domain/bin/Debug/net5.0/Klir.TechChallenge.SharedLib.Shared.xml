@@ -178,6 +178,11 @@
             promotion type
             </summary>
         </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Models.ProductPromoPayload.PromoDescription">
+            <summary>
+            promotion description
+            </summary>
+        </member>
         <member name="T:Klir.TechChallenge.SharedLib.Shared.Models.ProductResource">
             <summary>
             product response
@@ -279,6 +284,16 @@
         <member name="P:Klir.TechChallenge.SharedLib.Shared.Resource.PromoResource.ProductPromoType">
             <summary>
             promotion type
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Resource.PromoResource.Id">
+            <summary>
+            promotion Id
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Resource.PromoResource.PromoDescription">
+            <summary>
+            promotion description
             </summary>
         </member>
         <member name="T:Klir.TechChallenge.SharedLib.Shared.Resource.StatusResponse">

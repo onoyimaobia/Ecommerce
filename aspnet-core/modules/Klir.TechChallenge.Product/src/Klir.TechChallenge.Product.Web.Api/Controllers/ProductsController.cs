@@ -22,24 +22,19 @@ namespace Klir.TechChallenge.Product.Web.Api.Controllers
         }
         // GET: api/<ProductsController>
         [HttpGet]
-        public async Task<IEnumerable<PromoResource>> GetAllAsync()
+        public async Task<IEnumerable<ProductResource>> GetAllAsync()
         {
-            return await _mediator.Send(new GetPromoQuery());
+            return await _mediator.Send(new GetProductQuery());
+            
         }
         [HttpGet]
         [Route("promo")]
-        public async Task<IEnumerable<ProductResource>> GetPromosAsync()
+        public async Task<IEnumerable<PromoResource>> GetPromosAsync()
         {
-            return await _mediator.Send(new GetProductQuery());
+            return await _mediator.Send(new GetPromoQuery());
         }
 
-        // GET api/<ProductsController>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
-        {
-            return "value";
-        }
-
+        
         // POST api/<ProductsController>
         [HttpPost]
         public async Task<StatusResponse>  Post([FromBody] ProductAddPayload payload)
@@ -54,16 +49,6 @@ namespace Klir.TechChallenge.Product.Web.Api.Controllers
             return await _mediator.Send(new AddPromoCommand(payload));
         }
 
-        // PUT api/<ProductsController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/<ProductsController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
+        
     }
 }

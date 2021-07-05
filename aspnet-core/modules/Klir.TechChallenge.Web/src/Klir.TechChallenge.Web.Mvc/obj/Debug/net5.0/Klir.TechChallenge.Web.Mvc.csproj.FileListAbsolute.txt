@@ -183,8 +183,6 @@ C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.Web\src\Kl
 C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.Web\src\Klir.TechChallenge.Web.Mvc\obj\Debug\net5.0\Klir.TechChallenge.Web.Mvc.TagHelpers.input.cache
 C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.Web\src\Klir.TechChallenge.Web.Mvc\obj\Debug\net5.0\Klir.TechChallenge.Web.Mvc.TagHelpers.output.cache
 C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.Web\src\Klir.TechChallenge.Web.Mvc\obj\Debug\net5.0\Klir.TechChallenge.Web.Mvc.RazorCoreGenerate.cache
-C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.Web\src\Klir.TechChallenge.Web.Mvc\obj\Debug\net5.0\Razor\Views\AccountController1\Login.cshtml.g.cs
-C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.Web\src\Klir.TechChallenge.Web.Mvc\obj\Debug\net5.0\Razor\Views\DashBoard\Index.cshtml.g.cs
 C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.Web\src\Klir.TechChallenge.Web.Mvc\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.Web\src\Klir.TechChallenge.Web.Mvc\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.Web\src\Klir.TechChallenge.Web.Mvc\obj\Debug\net5.0\Razor\Views\Product\Create.cshtml.g.cs
@@ -212,3 +210,5 @@ C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.Web\src\Kl
 C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.Web\src\Klir.TechChallenge.Web.Mvc\obj\Debug\net5.0\ref\Klir.TechChallenge.Web.Mvc.dll
 C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.Web\src\Klir.TechChallenge.Web.Mvc\obj\Debug\net5.0\Klir.TechChallenge.Web.Mvc.pdb
 C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.Web\src\Klir.TechChallenge.Web.Mvc\obj\Debug\net5.0\Klir.TechChallenge.Web.Mvc.genruntimeconfig.cache
+C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.Web\src\Klir.TechChallenge.Web.Mvc\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.Web\src\Klir.TechChallenge.Web.Mvc\obj\Debug\net5.0\Razor\Views\Product\CreatePromo.cshtml.g.cs

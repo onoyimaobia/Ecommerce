@@ -1,0 +1,75 @@
+﻿
+@model Klir.TechChallenge.SharedLib.Shared.Models.ProductPromoPayload;
+@using Klir.TechChallenge.SharedLib.Shared.Extensions;
+@{ Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Create"; }
+@if (@ViewBag.ErrorStatus != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @ViewBag.ErrorStatus
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>}
+
+
+<h4>Create promo</h4>
+<hr />
+<div class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-md-4">
+        <form asp-action="CreatePromo" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ProductPromoType" class="control-label"></label>
+                <select asp-for="ProductPromoType" asp-items="@Html.GetEnumSelectList<Klir.TechChallenge.SharedLib.Shared.Enum.ProductPromoType>()" class="form-control"></select>
+                <span asp-validation-for="ProductPromoType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ProductId" class="control-label"></label>
+                <select asp-for="ProductId" asp-items="@(new SelectList(ViewBag.products,"Id", "Name"))" class="form-control"></select>
+                <span asp-validation-for="ProductId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DiscountProductPrice" class="control-label"></label>
+                <input asp-for="DiscountProductPrice" class="form-control" />
+                <span asp-validation-for="DiscountProductPrice" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DiscountProductQuantity" class="control-label"></label>
+                <input asp-for="DiscountProductQuantity" class="form-control" />
+                <span asp-validation-for="DiscountProductQuantity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NumberOfFreeProduct" class="control-label"></label>
+                <input asp-for="NumberOfFreeProduct" class="form-control" />
+                <span asp-validation-for="NumberOfFreeProduct" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ProductQuantity" class="control-label"></label>
+                <input asp-for="ProductQuantity" class="form-control" />
+                <span asp-validation-for="ProductQuantity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PromoDescription" class="control-label"></label>
+                <input asp-for="PromoDescription" class="form-control" />
+                <span asp-validation-for="PromoDescription" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-sm btn-primary" />
+                <a asp-controller="CategoryType" asp-action="Index" class="btn btn-sm btn-success">Bact to List</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+

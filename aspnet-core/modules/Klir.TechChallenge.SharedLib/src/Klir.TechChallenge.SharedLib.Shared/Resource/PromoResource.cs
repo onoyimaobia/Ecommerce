@@ -38,8 +38,13 @@ namespace Klir.TechChallenge.SharedLib.Shared.Resource
         /// promotion type
         /// </summary>
         public ProductPromoType ProductPromoType { get; set; }
-
+        /// <summary>
+        /// promotion Id
+        /// </summary>
         public long Id { get; set; }
-
+        /// <summary>
+        /// promotion description
+        /// </summary>
+        public string PromoDescription { get; set; }
     }
 }

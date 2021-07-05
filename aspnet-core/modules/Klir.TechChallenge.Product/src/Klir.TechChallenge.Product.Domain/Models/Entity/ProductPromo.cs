@@ -46,5 +46,9 @@ namespace Klir.TechChallenge.Product.Domain.Models.Entity
         /// promotion type
         /// </summary>
         public ProductPromoType ProductPromoType { get; set; }
+        /// <summary>
+        /// promotion description
+        /// </summary>
+        public string PromoDescription { get; set; }
     }
 }

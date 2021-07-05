@@ -4,6 +4,21 @@
         <name>Klir.TechChallenge.SharedLib.Shared</name>
     </assembly>
     <members>
+        <member name="T:Klir.TechChallenge.SharedLib.Shared.Enum.ProductPromoType">
+            <summary>
+            promotion type
+            </summary>
+        </member>
+        <member name="F:Klir.TechChallenge.SharedLib.Shared.Enum.ProductPromoType.DiscountPrice">
+            <summary>
+            discount price
+            </summary>
+        </member>
+        <member name="F:Klir.TechChallenge.SharedLib.Shared.Enum.ProductPromoType.FreeProduct">
+            <summary>
+            free product
+            </summary>
+        </member>
         <member name="T:Klir.TechChallenge.SharedLib.Shared.Enum.ProductType">
             <summary>
              product type enum
@@ -130,6 +145,44 @@
             Created By which user
             </summary>
         </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Models.ProductPromoPayload.ProductQuantity">
+            <summary>
+            this is the number of product quantity to apply promo  on
+            eg. buy 1 get 1 free
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Models.ProductPromoPayload.NumberOfFreeProduct">
+            <summary>
+            this is number of free product tied to 
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Models.ProductPromoPayload.DiscountProductQuantity">
+            <summary>
+            discount product qauntity
+            eg 3 product per 10 dolar
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Models.ProductPromoPayload.DiscountProductPrice">
+            <summary>
+            discount product price
+            eg 10 dolar for 3 product
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Models.ProductPromoPayload.ProductId">
+            <summary>
+            mapping promoid
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Models.ProductPromoPayload.ProductPromoType">
+            <summary>
+            promotion type
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Models.ProductPromoPayload.PromoDescription">
+            <summary>
+            promotion description
+            </summary>
+        </member>
         <member name="T:Klir.TechChallenge.SharedLib.Shared.Models.ProductResource">
             <summary>
             product response
@@ -193,6 +246,54 @@
         <member name="P:Klir.TechChallenge.SharedLib.Shared.Models.ProductResource.ModifiedById">
             <summary>
             modified by which user
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Resource.PromoResource.ProductQuantity">
+            <summary>
+            this is the number of product quantity to apply promo  on
+            eg. buy 1 get 1 free
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Resource.PromoResource.NumberOfFreeProduct">
+            <summary>
+            this is number of free product tied to 
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Resource.PromoResource.DiscountProductQuantity">
+            <summary>
+            discount product qauntity
+            eg 3 product per 10 dolar
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Resource.PromoResource.DiscountProductPrice">
+            <summary>
+            discount product price
+            eg 10 dolar for 3 product
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Resource.PromoResource.ProductId">
+            <summary>
+            mapping promoid
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Resource.PromoResource.Product">
+            <summary>
+            product entity
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Resource.PromoResource.ProductPromoType">
+            <summary>
+            promotion type
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Resource.PromoResource.Id">
+            <summary>
+            promotion Id
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Resource.PromoResource.PromoDescription">
+            <summary>
+            promotion description
             </summary>
         </member>
         <member name="T:Klir.TechChallenge.SharedLib.Shared.Resource.StatusResponse">

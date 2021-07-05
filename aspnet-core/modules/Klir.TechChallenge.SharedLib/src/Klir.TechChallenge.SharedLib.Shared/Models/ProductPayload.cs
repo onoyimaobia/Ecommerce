@@ -1,4 +1,5 @@
 ﻿using Klir.TechChallenge.SharedLib.Shared.Enum;
+using Klir.TechChallenge.SharedLib.Shared.Extensions;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -73,30 +74,40 @@ namespace Klir.TechChallenge.SharedLib.Shared.Models
         /// this is the number of product quantity to apply promo  on
         /// eg. buy 1 get 1 free
         /// </summary>
+        [RequiredByCondition(nameof(ProductPromoType.FreeProduct), true, ErrorMessage = "Required if it is free product")]
         public int ProductQuantity { get; set; }
         /// <summary>
         /// this is number of free product tied to 
         /// </summary>
+        [RequiredByCondition(nameof(ProductPromoType.FreeProduct),true,ErrorMessage = "Required if it is free product")]
         public int NumberOfFreeProduct { get; set; }
         /// <summary>
         /// discount product qauntity
         /// eg 3 product per 10 dolar
         /// </summary>
+        [RequiredByCondition(nameof(ProductPromoType.DiscountPrice), true, ErrorMessage = "Required if it is free product")]
         public int DiscountProductQuantity { get; set; }
         /// <summary>
         /// discount product price
         /// eg 10 dolar for 3 product
         /// </summary>
+        [RequiredByCondition(nameof(ProductPromoType.DiscountPrice), true, ErrorMessage = "Required if it is free product")]
         public double DiscountProductPrice { get; set; }
         /// <summary>
         /// mapping promoid
         /// </summary>
-       
+       [Required]
         public long ProductId { get; set; }
         
         /// <summary>
         /// promotion type
         /// </summary>
+        [Required]
         public ProductPromoType ProductPromoType { get; set; }
+        /// <summary>
+        /// promotion description
+        /// </summary>
+        [Required]
+        public string PromoDescription { get; set; }
     }
 }

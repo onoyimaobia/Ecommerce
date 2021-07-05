@@ -27,7 +27,8 @@ namespace Klir.TechChallenge.Product.Web.Api.Features.Command
                 NumberOfFreeProduct = request.Payload.NumberOfFreeProduct,
                 ProductId = request.Payload.ProductId,
                 ProductPromoType = request.Payload.ProductPromoType,
-                ProductQuantity = request.Payload.ProductQuantity
+                ProductQuantity = request.Payload.ProductQuantity,
+                PromoDescription = request.Payload.PromoDescription
 
             };
             // to do add cancellationtoken very important

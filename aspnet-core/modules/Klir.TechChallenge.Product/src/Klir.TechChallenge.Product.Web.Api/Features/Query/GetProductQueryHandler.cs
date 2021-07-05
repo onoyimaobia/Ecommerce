@@ -5,6 +5,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Klir.TechChallenge.Product.Domain.Repository;
 using Klir.TechChallenge.SharedLib.Shared;
+using Klir.TechChallenge.SharedLib.Shared.Enum;
 using Klir.TechChallenge.SharedLib.Shared.Models;
 using Klir.TechChallenge.SharedLib.Shared.Resource;
 using MediatR;
@@ -25,14 +26,14 @@ namespace Klir.TechChallenge.Product.Web.Api.Features.Query
                         {
                             Id = res.Id,
                             PromoResource = new PromoResource {
-                                ProductId = res.ProductPromo.ProductId,
-                                Product = new ProductResource { Price = res.ProductPromo.Product.Price },
-                                Id = res.Id,
-                                DiscountProductPrice = res.ProductPromo.DiscountProductPrice,
-                                DiscountProductQuantity = res.ProductPromo.DiscountProductQuantity,
-                                NumberOfFreeProduct = res.ProductPromo.NumberOfFreeProduct,
-                                ProductPromoType = res.ProductPromo.ProductPromoType,
-                                ProductQuantity = res.ProductPromo.ProductQuantity
+                                ProductId = res.ProductPromo != null? res.ProductPromo.ProductId : 0 ,
+                                Id = res.ProductPromo !=null? res.ProductPromo.Id :0,
+                                DiscountProductPrice = res.ProductPromo != null? res.ProductPromo.DiscountProductPrice : 0,
+                                DiscountProductQuantity = res.ProductPromo != null ? res.ProductPromo.DiscountProductQuantity : 0,
+                                NumberOfFreeProduct = res.ProductPromo != null ? res.ProductPromo.NumberOfFreeProduct : 0,
+                                ProductPromoType = res.ProductPromo!= null ? res.ProductPromo.ProductPromoType: ProductPromoType.DiscountPrice,
+                                ProductQuantity = res.ProductPromo != null ? res.ProductPromo.ProductQuantity : 0,
+                                PromoDescription = res.ProductPromo != null ? res.ProductPromo.PromoDescription: "defaul"
                             },
                             Name = res.Name,
                             Price = res.Price,

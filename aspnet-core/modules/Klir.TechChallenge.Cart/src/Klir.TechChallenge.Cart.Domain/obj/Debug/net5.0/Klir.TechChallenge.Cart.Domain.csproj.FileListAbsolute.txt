@@ -1,0 +1,14 @@
+C:\Users\tooch\source\repos\KlirTechChallenge\KlirTechChallenge\aspnet-core\modules\Klir.TechChallenge.Cart\src\Klir.TechChallenge.Cart.Domain\bin\Debug\net5.0\Klir.TechChallenge.Cart.Domain.deps.json
+C:\Users\tooch\source\repos\KlirTechChallenge\KlirTechChallenge\aspnet-core\modules\Klir.TechChallenge.Cart\src\Klir.TechChallenge.Cart.Domain\bin\Debug\net5.0\Klir.TechChallenge.Cart.Domain.dll
+C:\Users\tooch\source\repos\KlirTechChallenge\KlirTechChallenge\aspnet-core\modules\Klir.TechChallenge.Cart\src\Klir.TechChallenge.Cart.Domain\bin\Debug\net5.0\ref\Klir.TechChallenge.Cart.Domain.dll
+C:\Users\tooch\source\repos\KlirTechChallenge\KlirTechChallenge\aspnet-core\modules\Klir.TechChallenge.Cart\src\Klir.TechChallenge.Cart.Domain\bin\Debug\net5.0\Klir.TechChallenge.Cart.Domain.pdb
+C:\Users\tooch\source\repos\KlirTechChallenge\KlirTechChallenge\aspnet-core\modules\Klir.TechChallenge.Cart\src\Klir.TechChallenge.Cart.Domain\bin\Debug\net5.0\Klir.TechChallenge.Cart.Domain.xml
+C:\Users\tooch\source\repos\KlirTechChallenge\KlirTechChallenge\aspnet-core\modules\Klir.TechChallenge.Cart\src\Klir.TechChallenge.Cart.Domain\obj\Debug\net5.0\Klir.TechChallenge.Cart.Domain.csprojAssemblyReference.cache
+C:\Users\tooch\source\repos\KlirTechChallenge\KlirTechChallenge\aspnet-core\modules\Klir.TechChallenge.Cart\src\Klir.TechChallenge.Cart.Domain\obj\Debug\net5.0\Klir.TechChallenge.Cart.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tooch\source\repos\KlirTechChallenge\KlirTechChallenge\aspnet-core\modules\Klir.TechChallenge.Cart\src\Klir.TechChallenge.Cart.Domain\obj\Debug\net5.0\Klir.TechChallenge.Cart.Domain.AssemblyInfoInputs.cache
+C:\Users\tooch\source\repos\KlirTechChallenge\KlirTechChallenge\aspnet-core\modules\Klir.TechChallenge.Cart\src\Klir.TechChallenge.Cart.Domain\obj\Debug\net5.0\Klir.TechChallenge.Cart.Domain.AssemblyInfo.cs
+C:\Users\tooch\source\repos\KlirTechChallenge\KlirTechChallenge\aspnet-core\modules\Klir.TechChallenge.Cart\src\Klir.TechChallenge.Cart.Domain\obj\Debug\net5.0\Klir.TechChallenge.Cart.Domain.csproj.CoreCompileInputs.cache
+C:\Users\tooch\source\repos\KlirTechChallenge\KlirTechChallenge\aspnet-core\modules\Klir.TechChallenge.Cart\src\Klir.TechChallenge.Cart.Domain\obj\Debug\net5.0\Klir.TechChallenge.Cart.Domain.dll
+C:\Users\tooch\source\repos\KlirTechChallenge\KlirTechChallenge\aspnet-core\modules\Klir.TechChallenge.Cart\src\Klir.TechChallenge.Cart.Domain\obj\Debug\net5.0\ref\Klir.TechChallenge.Cart.Domain.dll
+C:\Users\tooch\source\repos\KlirTechChallenge\KlirTechChallenge\aspnet-core\modules\Klir.TechChallenge.Cart\src\Klir.TechChallenge.Cart.Domain\obj\Debug\net5.0\Klir.TechChallenge.Cart.Domain.xml
+C:\Users\tooch\source\repos\KlirTechChallenge\KlirTechChallenge\aspnet-core\modules\Klir.TechChallenge.Cart\src\Klir.TechChallenge.Cart.Domain\obj\Debug\net5.0\Klir.TechChallenge.Cart.Domain.pdb

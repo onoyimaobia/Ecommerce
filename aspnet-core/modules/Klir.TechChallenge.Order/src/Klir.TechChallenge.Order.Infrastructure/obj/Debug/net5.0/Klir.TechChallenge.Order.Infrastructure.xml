@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Klir.TechChallenge.Order.Infrastructure</name>
+    </assembly>
+    <members>
+        <member name="T:Klir.TechChallenge.Order.Infrastructure.AppBootstrapper">
+            <summary>
+             extracted class used for service resgistration
+            </summary>
+        </member>
+        <member name="M:Klir.TechChallenge.Order.Infrastructure.AppBootstrapper.InitServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            register services
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="T:Klir.TechChallenge.Order.Infrastructure.DataContext.OrderContext">
+            <summary>
+            db context
+            </summary>
+        </member>
+        <member name="T:Klir.TechChallenge.Order.Infrastructure.Repository.OrderRepository">
+            <summary>
+            order detairepository
+            </summary>
+        </member>
+        <member name="M:Klir.TechChallenge.Order.Infrastructure.Repository.OrderRepository.AddAsync(Klir.TechChallenge.Order.Domain.Models.Entity.OrderDetail)">
+            <summary>
+            add order detail
+            </summary>
+            <param name="payload"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

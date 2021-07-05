@@ -1,0 +1,14 @@
+C:\Users\tooch\source\repos\KlirTechChallenge\KlirTechChallenge\aspnet-core\modules\Klir.TechChallenge.Order\src\Klir.TechChallenge.Order.Domain\bin\Debug\net5.0\Klir.TechChallenge.Order.Domain.deps.json
+C:\Users\tooch\source\repos\KlirTechChallenge\KlirTechChallenge\aspnet-core\modules\Klir.TechChallenge.Order\src\Klir.TechChallenge.Order.Domain\bin\Debug\net5.0\Klir.TechChallenge.Order.Domain.dll
+C:\Users\tooch\source\repos\KlirTechChallenge\KlirTechChallenge\aspnet-core\modules\Klir.TechChallenge.Order\src\Klir.TechChallenge.Order.Domain\bin\Debug\net5.0\ref\Klir.TechChallenge.Order.Domain.dll
+C:\Users\tooch\source\repos\KlirTechChallenge\KlirTechChallenge\aspnet-core\modules\Klir.TechChallenge.Order\src\Klir.TechChallenge.Order.Domain\bin\Debug\net5.0\Klir.TechChallenge.Order.Domain.pdb
+C:\Users\tooch\source\repos\KlirTechChallenge\KlirTechChallenge\aspnet-core\modules\Klir.TechChallenge.Order\src\Klir.TechChallenge.Order.Domain\bin\Debug\net5.0\Klir.TechChallenge.Order.Domain.xml
+C:\Users\tooch\source\repos\KlirTechChallenge\KlirTechChallenge\aspnet-core\modules\Klir.TechChallenge.Order\src\Klir.TechChallenge.Order.Domain\obj\Debug\net5.0\Klir.TechChallenge.Order.Domain.csprojAssemblyReference.cache
+C:\Users\tooch\source\repos\KlirTechChallenge\KlirTechChallenge\aspnet-core\modules\Klir.TechChallenge.Order\src\Klir.TechChallenge.Order.Domain\obj\Debug\net5.0\Klir.TechChallenge.Order.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tooch\source\repos\KlirTechChallenge\KlirTechChallenge\aspnet-core\modules\Klir.TechChallenge.Order\src\Klir.TechChallenge.Order.Domain\obj\Debug\net5.0\Klir.TechChallenge.Order.Domain.AssemblyInfoInputs.cache
+C:\Users\tooch\source\repos\KlirTechChallenge\KlirTechChallenge\aspnet-core\modules\Klir.TechChallenge.Order\src\Klir.TechChallenge.Order.Domain\obj\Debug\net5.0\Klir.TechChallenge.Order.Domain.AssemblyInfo.cs
+C:\Users\tooch\source\repos\KlirTechChallenge\KlirTechChallenge\aspnet-core\modules\Klir.TechChallenge.Order\src\Klir.TechChallenge.Order.Domain\obj\Debug\net5.0\Klir.TechChallenge.Order.Domain.csproj.CoreCompileInputs.cache
+C:\Users\tooch\source\repos\KlirTechChallenge\KlirTechChallenge\aspnet-core\modules\Klir.TechChallenge.Order\src\Klir.TechChallenge.Order.Domain\obj\Debug\net5.0\Klir.TechChallenge.Order.Domain.dll
+C:\Users\tooch\source\repos\KlirTechChallenge\KlirTechChallenge\aspnet-core\modules\Klir.TechChallenge.Order\src\Klir.TechChallenge.Order.Domain\obj\Debug\net5.0\ref\Klir.TechChallenge.Order.Domain.dll
+C:\Users\tooch\source\repos\KlirTechChallenge\KlirTechChallenge\aspnet-core\modules\Klir.TechChallenge.Order\src\Klir.TechChallenge.Order.Domain\obj\Debug\net5.0\Klir.TechChallenge.Order.Domain.xml
+C:\Users\tooch\source\repos\KlirTechChallenge\KlirTechChallenge\aspnet-core\modules\Klir.TechChallenge.Order\src\Klir.TechChallenge.Order.Domain\obj\Debug\net5.0\Klir.TechChallenge.Order.Domain.pdb

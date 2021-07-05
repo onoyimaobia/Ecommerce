@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/tagbo/Documents/Testing-master/aspnet-core/modules/Klir.TechChallenge.Web/src/Klir.TechChallenge.Web.Domain/Klir.TechChallenge.Web.Domain.csproj": {}
+  },
+  "projects": {
+    "/Users/tagbo/Documents/Testing-master/aspnet-core/modules/Klir.TechChallenge.Web/src/Klir.TechChallenge.Web.Domain/Klir.TechChallenge.Web.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tagbo/Documents/Testing-master/aspnet-core/modules/Klir.TechChallenge.Web/src/Klir.TechChallenge.Web.Domain/Klir.TechChallenge.Web.Domain.csproj",
+        "projectName": "Klir.TechChallenge.Web.Domain",
+        "projectPath": "/Users/tagbo/Documents/Testing-master/aspnet-core/modules/Klir.TechChallenge.Web/src/Klir.TechChallenge.Web.Domain/Klir.TechChallenge.Web.Domain.csproj",
+        "packagesPath": "/Users/tagbo/.nuget/packages/",
+        "outputPath": "/Users/tagbo/Documents/Testing-master/aspnet-core/modules/Klir.TechChallenge.Web/src/Klir.TechChallenge.Web.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/tagbo/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNet.Identity.EntityFramework": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

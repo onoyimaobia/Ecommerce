@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Klir.TechChallenge.Cart.Domain</name>
+    </assembly>
+    <members>
+        <member name="T:Klir.TechChallenge.Cart.Domain.Models.Entity.BaseEntity">
+            <summary>
+            base class for all entity class in product
+            </summary>
+        </member>
+        <member name="M:Klir.TechChallenge.Cart.Domain.Models.Entity.BaseEntity.#ctor">
+            <summary>
+            ctor
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.Cart.Domain.Models.Entity.BaseEntity.Id">
+            <summary>
+            primary key
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.Cart.Domain.Models.Entity.BaseEntity.IsDeleted">
+            <summary>
+            is product deleted
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.Cart.Domain.Models.Entity.BaseEntity.IsActive">
+            <summary>
+            is prodcut active
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.Cart.Domain.Models.Entity.BaseEntity.CreatedAt">
+            <summary>
+            Created at
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.Cart.Domain.Models.Entity.BaseEntity.UpdatedAt">
+            <summary>
+            Update at
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.Cart.Domain.Models.Entity.BaseEntity.CreatedById">
+            <summary>
+            Created By which user
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.Cart.Domain.Models.Entity.BaseEntity.ModifiedById">
+            <summary>
+            modified by which user
+            </summary>
+        </member>
+        <member name="T:Klir.TechChallenge.Cart.Domain.Models.Entity.ShoppingCart">
+            <summary>
+            shopping cart table
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.Cart.Domain.Models.Entity.ShoppingCart.ProductId">
+            <summary>
+            product id
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.Cart.Domain.Models.Entity.ShoppingCart.Count">
+            <summary>
+            number of items
+            </summary>
+        </member>
+        <member name="T:Klir.TechChallenge.Cart.Domain.Repository.IShoppingCartRepository">
+            <summary>
+            shopping cart repo
+            </summary>
+        </member>
+        <member name="M:Klir.TechChallenge.Cart.Domain.Repository.IShoppingCartRepository.Add(Klir.TechChallenge.Cart.Domain.Models.Entity.ShoppingCart)">
+            <summary>
+            add to db
+            </summary>
+            <param name="shoppingCart"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Klir.TechChallenge.Cart.Domain.Repository.IShoppingCartRepository.Delete(Klir.TechChallenge.Cart.Domain.Models.Entity.ShoppingCart)">
+            <summary>
+            delete cart
+            </summary>
+            <param name="shoppingCart"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Klir.TechChallenge.Cart.Domain.Repository.IShoppingCartRepository.GetById(System.Int64)">
+            <summary>
+            get cart by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Klir.TechChallenge.Cart.Domain.Repository.IShoppingCartRepository.AddCart(System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Klir.TechChallenge.Cart.Domain.Repository.IShoppingCartRepository.RemoveCart(System.Int64)">
+            <summary>
+            remove cart
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Klir.TechChallenge.Cart.Domain.Repository.IShoppingCartRepository.GetUserIdCartCount(System.Guid)">
+            <summary>
+            get count by a particular user
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Klir.TechChallenge.Cart.Domain.Repository.IShoppingCartRepository.GetAll(System.Guid)">
+            <summary>
+            get all cart for a user
+            </summary>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Klir.TechChallenge.Cart.Domain.Repository.IShoppingCartRepository.Update(Klir.TechChallenge.Cart.Domain.Models.Entity.ShoppingCart)">
+            <summary>
+            update cart
+            </summary>
+            <param name="shoppingCart"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Klir.TechChallenge.Cart.Domain.Repository.IShoppingCartRepository.CheckForExist(System.Guid,System.Int64)">
+            <summary>
+            Check For Existence
+            </summary>
+            <param name="userId"></param>
+            <param name="productId"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

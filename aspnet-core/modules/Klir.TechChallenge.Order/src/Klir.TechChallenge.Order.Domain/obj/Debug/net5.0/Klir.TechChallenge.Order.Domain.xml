@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Klir.TechChallenge.Order.Domain</name>
+    </assembly>
+    <members>
+        <member name="T:Klir.TechChallenge.Order.Domain.Models.DTO.OrderDetailPayload">
+            <summary>
+            cart datal payload
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.Order.Domain.Models.DTO.OrderDetailPayload.Listcarts">
+            <summary>
+            list of shopping carts
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.Order.Domain.Models.DTO.OrderDetailPayload.OrderheaderPayload">
+            <summary>
+            oder detail
+            </summary>
+        </member>
+        <member name="T:Klir.TechChallenge.Order.Domain.Models.Entity.BaseEntity">
+            <summary>
+            base class for all entity class in product
+            </summary>
+        </member>
+        <member name="M:Klir.TechChallenge.Order.Domain.Models.Entity.BaseEntity.#ctor">
+            <summary>
+            ctor
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.Order.Domain.Models.Entity.BaseEntity.Id">
+            <summary>
+            primary key
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.Order.Domain.Models.Entity.BaseEntity.IsDeleted">
+            <summary>
+            is product deleted
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.Order.Domain.Models.Entity.BaseEntity.IsActive">
+            <summary>
+            is prodcut active
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.Order.Domain.Models.Entity.BaseEntity.CreatedAt">
+            <summary>
+            Created at
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.Order.Domain.Models.Entity.BaseEntity.UpdatedAt">
+            <summary>
+            Update at
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.Order.Domain.Models.Entity.BaseEntity.CreatedById">
+            <summary>
+            Created By which user
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.Order.Domain.Models.Entity.BaseEntity.ModifiedById">
+            <summary>
+            modified by which user
+            </summary>
+        </member>
+        <member name="T:Klir.TechChallenge.Order.Domain.Models.Entity.OrderHeader">
+            <summary>
+             order header
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.Order.Domain.Models.Entity.OrderHeader.OrderTotal">
+            <summary>
+            total amount of order
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.Order.Domain.Models.Entity.OrderHeader.Status">
+            <summary>
+            oder status
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.Order.Domain.Models.Entity.OrderHeader.Comment">
+            <summary>
+            order comment
+            </summary>
+        </member>
+        <member name="T:Klir.TechChallenge.Order.Domain.Repository.IOrderRepository">
+            <summary>
+            order repository
+            </summary>
+        </member>
+        <member name="M:Klir.TechChallenge.Order.Domain.Repository.IOrderRepository.AddAsync(Klir.TechChallenge.Order.Domain.Models.Entity.OrderDetail)">
+            <summary>
+            add order detail
+            </summary>
+            <param name="payload"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Klir.TechChallenge.Order.Domain.Service.IOrderService">
+            <summary>
+            order service
+            </summary>
+        </member>
+        <member name="M:Klir.TechChallenge.Order.Domain.Service.IOrderService.AddAsync(Klir.TechChallenge.Order.Domain.Models.DTO.OrderDetailPayload)">
+            <summary>
+            add order detail
+            </summary>
+            <param name="payload"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

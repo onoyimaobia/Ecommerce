@@ -1,0 +1,72 @@
+﻿<Properties StartupConfiguration="{B48AF1E6-D9FD-41DA-90ED-E37FBD35C2BF}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="aspnet-core/modules/Klir.TechChallenge.SharedLib/src/Klir.TechChallenge.SharedLib.Shared/Models/ProductPayload.cs">
+    <Files>
+      <File FileName="aspnet-core/modules/Klir.TechChallenge.Web/src/Klir.TechChallenge.Web.Mvc/Features/Command/Product/CreatePromoCommandHandler.cs" Line="31" Column="50" />
+      <File FileName="aspnet-core/modules/Klir.TechChallenge.Web/src/Klir.TechChallenge.Web.Mvc/Features/Command/Product/CreatePromoCommand.cs" Line="18" Column="35" />
+      <File FileName="aspnet-core/modules/Klir.TechChallenge.Web/src/Klir.TechChallenge.Web.Mvc/Features/Command/Product/CreateProductCommandHandler.cs" Line="99" Column="10" />
+      <File FileName="aspnet-core/modules/Klir.TechChallenge.Product/src/Klir.TechChallenge.Product.Web.Api/Controllers/ProductsController.cs" Line="27" Column="62" />
+      <File FileName="aspnet-core/modules/Klir.TechChallenge.Product/src/Klir.TechChallenge.Product.Web.Api/Features/Command/AddPromoCommand.cs" Line="21" Column="1" />
+      <File FileName="aspnet-core/modules/Klir.TechChallenge.Product/src/Klir.TechChallenge.Product.Web.Api/Features/Command/AddPromoCommandHandler.cs" Line="16" Column="37" />
+      <File FileName="aspnet-core/modules/Klir.TechChallenge.Product/src/Klir.TechChallenge.Product.Web.Api/Features/Command/AddProductCommandHandler.cs" Line="19" Column="10" />
+      <File FileName="aspnet-core/modules/Klir.TechChallenge.Product/src/Klir.TechChallenge.Product.Domain/Repository/IProductRespository.cs" Line="23" Column="25" />
+      <File FileName="aspnet-core/modules/Klir.TechChallenge.Product/src/Klir.TechChallenge.Product.Infrastructure/Repository/ProductRepository.cs" Line="52" Column="44" />
+      <File FileName="aspnet-core/modules/Klir.TechChallenge.Product/src/Klir.TechChallenge.Product.Domain/Models/Entity/Product.cs" Line="14" Column="18" />
+      <File FileName="aspnet-core/modules/Klir.TechChallenge.Product/src/Klir.TechChallenge.Product.Web.Api/Features/Query/GetProductQuery.cs" Line="12" Column="70" />
+      <File FileName="aspnet-core/modules/Klir.TechChallenge.SharedLib/src/Klir.TechChallenge.SharedLib.Shared/Resource/PromoResource.cs" Line="41" Column="1" />
+      <File FileName="aspnet-core/modules/Klir.TechChallenge.Product/src/Klir.TechChallenge.Product.Domain/Models/Entity/ProductPromo.cs" Line="32" Column="35" />
+      <File FileName="aspnet-core/modules/Klir.TechChallenge.Product/src/Klir.TechChallenge.Product.Web.Api/Features/Query/GetProductQueryHandler.cs" Line="13" Column="101" />
+      <File FileName="aspnet-core/modules/Klir.TechChallenge.SharedLib/src/Klir.TechChallenge.SharedLib.Shared/Models/ProductResource.cs" Line="64" Column="31" />
+      <File FileName="aspnet-core/modules/Klir.TechChallenge.Product/src/Klir.TechChallenge.Product.Web.Api/Features/Query/GetPromoQueryHandler.cs" Line="40" Column="1" />
+      <File FileName="aspnet-core/modules/Klir.TechChallenge.Product/src/Klir.TechChallenge.Product.Web.Api/Features/Query/GetPromoQuery.cs" Line="11" Column="31" />
+      <File FileName="aspnet-core/modules/Klir.TechChallenge.Product/src/Klir.TechChallenge.Product.Web.Api/Features/Query/GetProductsQuery.cs" Line="1" Column="1" />
+      <File FileName="aspnet-core/modules/Klir.TechChallenge.Product/src/Klir.TechChallenge.Product.Web.Api/Features/Query/GetPromosQueryHandler.cs" Line="1" Column="1" />
+      <File FileName="aspnet-core/modules/Klir.TechChallenge.SharedLib/src/Klir.TechChallenge.SharedLib.Shared/Models/ProductPayload.cs" Line="1" Column="1" />
+      <File FileName="aspnet-core/modules/Klir.TechChallenge.Web/src/Klir.TechChallenge.Web.Mvc/Controllers/ProductController.cs" Line="79" Column="28" />
+      <File FileName="aspnet-core/modules/Klir.TechChallenge.Web/src/Klir.TechChallenge.Web.Mvc/Features/Command/Product/CreateProductCommand.cs" Line="1" Column="1" />
+      <File FileName="aspnet-core/modules/Klir.TechChallenge.Web/src/Klir.TechChallenge.Web.Mvc/Features/Query/ProductsQuery.cs" Line="1" Column="1" />
+      <File FileName="aspnet-core/modules/Klir.TechChallenge.Web/src/Klir.TechChallenge.Web.Mvc/Features/Query/ProductsQueryHandler.cs" Line="1" Column="1" />
+      <File FileName="aspnet-core/modules/Klir.TechChallenge.Web/src/Klir.TechChallenge.Web.Mvc/Features/Query/PromoQuery.cs" Line="1" Column="1" />
+      <File FileName="aspnet-core/modules/Klir.TechChallenge.Web/src/Klir.TechChallenge.Web.Mvc/Features/Query/PromoQueryHandler.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="KlirTechChallenge" expanded="True">
+            <Node name="modules" expanded="True">
+              <Node name="Klir.TechChallenge.Product" expanded="True" />
+              <Node name="Klir.TechChallenge.SharedLib" expanded="True">
+                <Node name="src" expanded="True">
+                  <Node name="Klir.TechChallenge.SharedLib.Shared" expanded="True">
+                    <Node name="Models" expanded="True">
+                      <Node name="ProductPayload.cs" selected="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Klir.TechChallenge.Web" expanded="True">
+                <Node name="src" expanded="True">
+                  <Node name="Klir.TechChallenge.Web.Mvc" expanded="True">
+                    <Node name="Controllers" expanded="True" />
+                    <Node name="Features" expanded="True">
+                      <Node name="Command" expanded="True">
+                        <Node name="Product" expanded="True" />
+                      </Node>
+                      <Node name="Query" expanded="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.modules.Klir.TechChallenge.Cart.src.Klir.TechChallenge.Cart.Web.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

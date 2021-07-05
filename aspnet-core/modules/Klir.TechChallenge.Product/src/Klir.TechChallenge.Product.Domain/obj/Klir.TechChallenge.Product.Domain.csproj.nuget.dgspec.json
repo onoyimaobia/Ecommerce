@@ -1,0 +1,126 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/tagbo/Documents/Testing-master/aspnet-core/modules/Klir.TechChallenge.Product/src/Klir.TechChallenge.Product.Domain/Klir.TechChallenge.Product.Domain.csproj": {}
+  },
+  "projects": {
+    "/Users/tagbo/Documents/Testing-master/aspnet-core/modules/Klir.TechChallenge.Product/src/Klir.TechChallenge.Product.Domain/Klir.TechChallenge.Product.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tagbo/Documents/Testing-master/aspnet-core/modules/Klir.TechChallenge.Product/src/Klir.TechChallenge.Product.Domain/Klir.TechChallenge.Product.Domain.csproj",
+        "projectName": "Klir.TechChallenge.Product.Domain",
+        "projectPath": "/Users/tagbo/Documents/Testing-master/aspnet-core/modules/Klir.TechChallenge.Product/src/Klir.TechChallenge.Product.Domain/Klir.TechChallenge.Product.Domain.csproj",
+        "packagesPath": "/Users/tagbo/.nuget/packages/",
+        "outputPath": "/Users/tagbo/Documents/Testing-master/aspnet-core/modules/Klir.TechChallenge.Product/src/Klir.TechChallenge.Product.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/tagbo/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/tagbo/Documents/Testing-master/aspnet-core/modules/Klir.TechChallenge.SharedLib/src/Klir.TechChallenge.SharedLib.Shared/Klir.TechChallenge.SharedLib.Shared.csproj": {
+                "projectPath": "/Users/tagbo/Documents/Testing-master/aspnet-core/modules/Klir.TechChallenge.SharedLib/src/Klir.TechChallenge.SharedLib.Shared/Klir.TechChallenge.SharedLib.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/tagbo/Documents/Testing-master/aspnet-core/modules/Klir.TechChallenge.SharedLib/src/Klir.TechChallenge.SharedLib.Shared/Klir.TechChallenge.SharedLib.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tagbo/Documents/Testing-master/aspnet-core/modules/Klir.TechChallenge.SharedLib/src/Klir.TechChallenge.SharedLib.Shared/Klir.TechChallenge.SharedLib.Shared.csproj",
+        "projectName": "Klir.TechChallenge.SharedLib.Shared",
+        "projectPath": "/Users/tagbo/Documents/Testing-master/aspnet-core/modules/Klir.TechChallenge.SharedLib/src/Klir.TechChallenge.SharedLib.Shared/Klir.TechChallenge.SharedLib.Shared.csproj",
+        "packagesPath": "/Users/tagbo/.nuget/packages/",
+        "outputPath": "/Users/tagbo/Documents/Testing-master/aspnet-core/modules/Klir.TechChallenge.SharedLib/src/Klir.TechChallenge.SharedLib.Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/tagbo/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Klir.TechChallenge.Cart.Web.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Klir.TechChallenge.Cart.Web.Api.Features.Command.AddCart.AddCartCommand">
+            <summary>
+            add cart
+            </summary>
+        </member>
+        <member name="M:Klir.TechChallenge.Cart.Web.Api.Features.Command.AddCart.AddCartCommand.#ctor(Klir.TechChallenge.Cart.Domain.Models.DTO.ShoppingCartPayload)">
+            <summary>
+            ctor
+            </summary>
+            <param name="payload"></param>
+        </member>
+        <member name="P:Klir.TechChallenge.Cart.Web.Api.Features.Command.AddCart.AddCartCommand.Payload">
+            <summary>
+            payload
+            </summary>
+        </member>
+        <member name="T:Klir.TechChallenge.Cart.Web.Api.Features.Command.AddCart.AddCartCommandHandler">
+            <summary>
+            create cart
+            </summary>
+        </member>
+        <member name="M:Klir.TechChallenge.Cart.Web.Api.Features.Command.AddCart.AddCartCommandHandler.#ctor(Klir.TechChallenge.Cart.Domain.Repository.IShoppingCartRepository)">
+            <summary>
+            ctor
+            </summary>
+            <param name="cartRepository"></param>
+        </member>
+        <member name="M:Klir.TechChallenge.Cart.Web.Api.Features.Command.AddCart.AddCartCommandHandler.Handle(Klir.TechChallenge.Cart.Web.Api.Features.Command.AddCart.AddCartCommand,System.Threading.CancellationToken)">
+            <summary>
+            handle shopping cart create
+            </summary>
+            <param name="request"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Klir.TechChallenge.Cart.Web.Api.Features.Command.AddCart.AddWithIdCommand">
+            <summary>
+            command add to cart +
+            </summary>
+        </member>
+        <member name="M:Klir.TechChallenge.Cart.Web.Api.Features.Command.AddCart.AddWithIdCommand.#ctor(System.Int64)">
+            <summary>
+            ctor
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="P:Klir.TechChallenge.Cart.Web.Api.Features.Command.AddCart.AddWithIdCommand.CartId">
+            <summary>
+            cart id
+            </summary>
+        </member>
+        <member name="T:Klir.TechChallenge.Cart.Web.Api.Features.Command.AddCart.AddWithIdCommandHandler">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.Cart.Web.Api.Features.Command.AddCart.DeleteCommand.CartId">
+            <summary>
+            cart Id
+            </summary>
+        </member>
+        <member name="T:Klir.TechChallenge.Cart.Web.Api.Features.Command.AddCart.DeleteCommandHandler">
+            <summary>
+            delete cart
+            </summary>
+        </member>
+        <member name="M:Klir.TechChallenge.Cart.Web.Api.Features.Command.AddCart.DeleteCommandHandler.Handle(Klir.TechChallenge.Cart.Web.Api.Features.Command.AddCart.DeleteCommand,System.Threading.CancellationToken)">
+            <summary>
+            
+            </summary>
+            <param name="request"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Klir.TechChallenge.Cart.Web.Api.Features.Command.AddCart.RemoveWithIdCommand.#ctor(System.Int64)">
+            <summary>
+            ctor
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.Cart.Web.Api.Features.Command.AddCart.RemoveWithIdCommand.CartId">
+            <summary>
+            cart id
+            </summary>
+        </member>
+        <member name="M:Klir.TechChallenge.Cart.Web.Api.Features.Command.AddCart.RemoveWithIdCommandHandler.Handle(Klir.TechChallenge.Cart.Web.Api.Features.Command.AddCart.RemoveWithIdCommand,System.Threading.CancellationToken)">
+            <summary>
+            remove from cart
+            </summary>
+            <param name="request"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Klir.TechChallenge.Cart.Web.Api.Features.Command.AddCart.UpdateCartCommand">
+            <summary>
+            update command
+            </summary>
+        </member>
+        <member name="M:Klir.TechChallenge.Cart.Web.Api.Features.Command.AddCart.UpdateCartCommand.#ctor(Klir.TechChallenge.Cart.Domain.Models.DTO.ShoppingCartUpdatePayload)">
+            <summary>
+            ctor
+            </summary>
+            <param name="payload"></param>
+        </member>
+        <member name="P:Klir.TechChallenge.Cart.Web.Api.Features.Command.AddCart.UpdateCartCommand.Payload">
+            <summary>
+            payload
+            </summary>
+        </member>
+        <member name="T:Klir.TechChallenge.Cart.Web.Api.Features.Command.AddCart.UpdateCartCommandHandler">
+            <summary>
+            update cart handler
+            </summary>
+        </member>
+        <member name="M:Klir.TechChallenge.Cart.Web.Api.Features.Command.AddCart.UpdateCartCommandHandler.Handle(Klir.TechChallenge.Cart.Web.Api.Features.Command.AddCart.UpdateCartCommand,System.Threading.CancellationToken)">
+            <summary>
+            update cart
+            </summary>
+            <param name="request"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

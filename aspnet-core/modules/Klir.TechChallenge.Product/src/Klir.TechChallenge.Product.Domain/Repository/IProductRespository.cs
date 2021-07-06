@@ -1,6 +1,4 @@
 ﻿
-using Klir.TechChallenge.Product.Domain.Models.DTO.Payload;
-using Klir.TechChallenge.Product.Domain.Models.DTO.Resource;
 using Klir.TechChallenge.Product.Domain.Models.Entity;
 using Klir.TechChallenge.SharedLib.Shared.Resource;
 using System;

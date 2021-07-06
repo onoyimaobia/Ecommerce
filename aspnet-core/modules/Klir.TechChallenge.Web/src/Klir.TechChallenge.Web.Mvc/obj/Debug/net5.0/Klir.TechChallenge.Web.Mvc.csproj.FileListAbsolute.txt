@@ -189,14 +189,11 @@ C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.Web\src\Kl
 C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.Web\src\Klir.TechChallenge.Web.Mvc\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
 C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.Web\src\Klir.TechChallenge.Web.Mvc\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.Web\src\Klir.TechChallenge.Web.Mvc\obj\Debug\net5.0\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
-C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.Web\src\Klir.TechChallenge.Web.Mvc\obj\Debug\net5.0\Razor\Views\Shared\_Dashboard.cshtml.g.cs
 C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.Web\src\Klir.TechChallenge.Web.Mvc\obj\Debug\net5.0\Razor\Views\Shared\_foodsPartial.cshtml.g.cs
 C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.Web\src\Klir.TechChallenge.Web.Mvc\obj\Debug\net5.0\Razor\Views\Shared\_IndividualButtonPartial.cshtml.g.cs
 C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.Web\src\Klir.TechChallenge.Web.Mvc\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.Web\src\Klir.TechChallenge.Web.Mvc\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
-C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.Web\src\Klir.TechChallenge.Web.Mvc\obj\Debug\net5.0\Razor\Views\Shared\_MainSidebar.cshtml.g.cs
 C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.Web\src\Klir.TechChallenge.Web.Mvc\obj\Debug\net5.0\Razor\Views\Shared\_OrderDetailPartialView.cshtml.g.cs
-C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.Web\src\Klir.TechChallenge.Web.Mvc\obj\Debug\net5.0\Razor\Views\Shared\_Sidebar.cshtml.g.cs
 C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.Web\src\Klir.TechChallenge.Web.Mvc\obj\Debug\net5.0\Razor\Views\Shared\_StatusMessage.cshtml.g.cs
 C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.Web\src\Klir.TechChallenge.Web.Mvc\obj\Debug\net5.0\Razor\Views\Shared\_TableButtonPartial.cshtml.g.cs
 C:\Users\tooch\source\Testing2\aspnet-core\modules\Klir.TechChallenge.Web\src\Klir.TechChallenge.Web.Mvc\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs

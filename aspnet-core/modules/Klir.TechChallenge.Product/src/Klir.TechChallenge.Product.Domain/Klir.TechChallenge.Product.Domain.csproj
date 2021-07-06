@@ -9,4 +9,9 @@
     <ProjectReference Include="..\..\..\Klir.TechChallenge.SharedLib\src\Klir.TechChallenge.SharedLib.Shared\Klir.TechChallenge.SharedLib.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\DTO\Payload\" />
+    <Folder Include="Models\DTO\Resource\" />
+  </ItemGroup>
+
 </Project>

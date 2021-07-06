@@ -1,5 +1,5 @@
-﻿using Klir.TechChallenge.Product.Domain.Models.DTO.Payload;
-using Klir.TechChallenge.Product.Domain.Models.DTO.Resource;
+﻿
+using Klir.TechChallenge.SharedLib.Shared.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

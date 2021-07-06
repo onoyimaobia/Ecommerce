@@ -4,159 +4,6 @@
         <name>Klir.TechChallenge.Product.Domain</name>
     </assembly>
     <members>
-        <member name="T:Klir.TechChallenge.Product.Domain.Models.DTO.Payload.ProductPayload">
-            <summary>
-             product payload
-            </summary>
-        </member>
-        <member name="P:Klir.TechChallenge.Product.Domain.Models.DTO.Payload.ProductPayload.Name">
-            <summary>
-            product name
-            </summary>
-        </member>
-        <member name="P:Klir.TechChallenge.Product.Domain.Models.DTO.Payload.ProductPayload.Description">
-            <summary>
-            product description
-            </summary>
-        </member>
-        <member name="P:Klir.TechChallenge.Product.Domain.Models.DTO.Payload.ProductPayload.ImageUrl">
-            <summary>
-            product image url
-            </summary>
-        </member>
-        <member name="P:Klir.TechChallenge.Product.Domain.Models.DTO.Payload.ProductPayload.ProductType">
-            <summary>
-            product type
-            </summary>
-        </member>
-        <member name="P:Klir.TechChallenge.Product.Domain.Models.DTO.Payload.ProductPayload.Price">
-            <summary>
-            product price
-            </summary>
-        </member>
-        <member name="T:Klir.TechChallenge.Product.Domain.Models.DTO.Payload.ProductUpdatePayload">
-            <summary>
-            update product payload
-            </summary>
-        </member>
-        <member name="P:Klir.TechChallenge.Product.Domain.Models.DTO.Payload.ProductUpdatePayload.Id">
-            <summary>
-            product Id
-            </summary>
-        </member>
-        <member name="P:Klir.TechChallenge.Product.Domain.Models.DTO.Payload.ProductUpdatePayload.ModifiedById">
-            <summary>
-            modified by which user
-            </summary>
-        </member>
-        <member name="T:Klir.TechChallenge.Product.Domain.Models.DTO.Payload.ProductAddPayload">
-            <summary>
-            add product payload
-            </summary>
-        </member>
-        <member name="P:Klir.TechChallenge.Product.Domain.Models.DTO.Payload.ProductAddPayload.CreatedById">
-            <summary>
-            Created By which user
-            </summary>
-        </member>
-        <member name="T:Klir.TechChallenge.Product.Domain.Models.DTO.Payload.PromoPayload">
-            <summary>
-            promotion payload
-            </summary>
-        </member>
-        <member name="P:Klir.TechChallenge.Product.Domain.Models.DTO.Payload.PromoPayload.ProductQuantity">
-            <summary>
-            this is the number of product quantity to apply promo  on
-            eg. buy 1 get 1 free
-            </summary>
-        </member>
-        <member name="P:Klir.TechChallenge.Product.Domain.Models.DTO.Payload.PromoPayload.NumberOfFreeProduct">
-            <summary>
-            this is number of free product tied to 
-            </summary>
-        </member>
-        <member name="P:Klir.TechChallenge.Product.Domain.Models.DTO.Payload.PromoPayload.DiscountProductQuantity">
-            <summary>
-            discount product qauntity
-            eg 3 product per 10 dolar
-            </summary>
-        </member>
-        <member name="P:Klir.TechChallenge.Product.Domain.Models.DTO.Payload.PromoPayload.DiscountProductPrice">
-            <summary>
-            discount product price
-            eg 10 dolar for 3 product
-            </summary>
-        </member>
-        <member name="P:Klir.TechChallenge.Product.Domain.Models.DTO.Payload.PromoPayload.ProductId">
-            <summary>
-            mapping promoid
-            </summary>
-        </member>
-        <member name="P:Klir.TechChallenge.Product.Domain.Models.DTO.Payload.PromoPayload.PromoType">
-            <summary>
-            promo type
-            </summary>
-        </member>
-        <member name="T:Klir.TechChallenge.Product.Domain.Models.DTO.Resource.ProductResource">
-            <summary>
-            product response
-            </summary>
-        </member>
-        <member name="P:Klir.TechChallenge.Product.Domain.Models.DTO.Resource.ProductResource.Name">
-            <summary>
-            product name
-            </summary>
-        </member>
-        <member name="P:Klir.TechChallenge.Product.Domain.Models.DTO.Resource.ProductResource.Description">
-            <summary>
-            product description
-            </summary>
-        </member>
-        <member name="P:Klir.TechChallenge.Product.Domain.Models.DTO.Resource.ProductResource.ImageUrl">
-            <summary>
-            product image url
-            </summary>
-        </member>
-        <member name="P:Klir.TechChallenge.Product.Domain.Models.DTO.Resource.ProductResource.ProductType">
-            <summary>
-            product type
-            </summary>
-        </member>
-        <member name="P:Klir.TechChallenge.Product.Domain.Models.DTO.Resource.ProductResource.Price">
-            <summary>
-            product price
-            </summary>
-        </member>
-        <member name="P:Klir.TechChallenge.Product.Domain.Models.DTO.Resource.ProductResource.IsDeleted">
-            <summary>
-            is product deleted
-            </summary>
-        </member>
-        <member name="P:Klir.TechChallenge.Product.Domain.Models.DTO.Resource.ProductResource.IsActive">
-            <summary>
-            is prodcut active
-            </summary>
-        </member>
-        <member name="P:Klir.TechChallenge.Product.Domain.Models.DTO.Resource.ProductResource.CreatedAt">
-            <summary>
-            Created at
-            </summary>
-        </member>
-        <member name="P:Klir.TechChallenge.Product.Domain.Models.DTO.Resource.ProductResource.UpdatedAt">
-            <summary>
-            Update at
-            </summary>
-        </member>
-        <member name="P:Klir.TechChallenge.Product.Domain.Models.DTO.Resource.ProductResource.CreatedById">
-            <summary>
-            Created By which user
-            </summary>
-        </member>
-        <member name="P:Klir.TechChallenge.Product.Domain.Models.DTO.Resource.ProductResource.ModifiedById">
-            <summary>
-            modified by which user
-            </summary>
-        </member>
         <member name="T:Klir.TechChallenge.Product.Domain.Models.Entity.BaseEntity">
             <summary>
             base class for all entity class in product
@@ -382,14 +229,14 @@
             </summary>
             <returns></returns>
         </member>
-        <member name="M:Klir.TechChallenge.Product.Domain.Service.IProductService.AddProductAsync(Klir.TechChallenge.Product.Domain.Models.DTO.Payload.ProductAddPayload)">
+        <member name="M:Klir.TechChallenge.Product.Domain.Service.IProductService.AddProductAsync(Klir.TechChallenge.SharedLib.Shared.Models.ProductAddPayload)">
             <summary>
             add product
             </summary>
             <param name="payload"></param>
             <returns>list of ProductResource</returns>
         </member>
-        <member name="M:Klir.TechChallenge.Product.Domain.Service.IProductService.UpdateProductAsync(Klir.TechChallenge.Product.Domain.Models.DTO.Payload.ProductUpdatePayload)">
+        <member name="M:Klir.TechChallenge.Product.Domain.Service.IProductService.UpdateProductAsync(Klir.TechChallenge.SharedLib.Shared.Models.ProductUpdatePayload)">
             <summary>
             update product
             </summary>

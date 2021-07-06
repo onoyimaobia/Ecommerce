@@ -1,0 +1,315 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Klir.TechChallenge.SharedLib.Shared</name>
+    </assembly>
+    <members>
+        <member name="T:Klir.TechChallenge.SharedLib.Shared.Enum.ProductPromoType">
+            <summary>
+            promotion type
+            </summary>
+        </member>
+        <member name="F:Klir.TechChallenge.SharedLib.Shared.Enum.ProductPromoType.DiscountPrice">
+            <summary>
+            discount price
+            </summary>
+        </member>
+        <member name="F:Klir.TechChallenge.SharedLib.Shared.Enum.ProductPromoType.FreeProduct">
+            <summary>
+            free product
+            </summary>
+        </member>
+        <member name="T:Klir.TechChallenge.SharedLib.Shared.Enum.ProductType">
+            <summary>
+             product type enum
+            </summary>
+        </member>
+        <member name="F:Klir.TechChallenge.SharedLib.Shared.Enum.ProductType.Manual">
+            <summary>
+            for manaul products
+            </summary>
+        </member>
+        <member name="F:Klir.TechChallenge.SharedLib.Shared.Enum.ProductType.Automatic">
+            <summary>
+             for automatic products
+            </summary>
+        </member>
+        <member name="F:Klir.TechChallenge.SharedLib.Shared.Enum.ProductType.FullAutomatic">
+            <summary>
+            for fully automatic products
+            </summary>
+        </member>
+        <member name="T:Klir.TechChallenge.SharedLib.Shared.Extensions.ReflectionExtension">
+            <summary>
+            rflection 
+            </summary>
+        </member>
+        <member name="M:Klir.TechChallenge.SharedLib.Shared.Extensions.ReflectionExtension.GetPropertyValue``1(``0,System.String)">
+            <summary>
+            get property value
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="Item"></param>
+            <param name="propertyName"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Klir.TechChallenge.SharedLib.Shared.ICommand`1">
+            <summary>
+            command with a return value
+            </summary>
+            <typeparam name="TResult">type of return value</typeparam>
+        </member>
+        <member name="T:Klir.TechChallenge.SharedLib.Shared.ICommand">
+            <summary>
+            void returning command
+            </summary>
+        </member>
+        <member name="T:Klir.TechChallenge.SharedLib.Shared.ICommandHandler`1">
+            <summary>
+            void returning command handler
+            </summary>
+            <typeparam name="TCommand">command type</typeparam>
+        </member>
+        <member name="T:Klir.TechChallenge.SharedLib.Shared.ICommandHandler`2">
+            <summary>
+            value returning command handler
+            </summary>
+            <typeparam name="TCommand">command type</typeparam>
+            <typeparam name="TResult">return value type</typeparam>
+        </member>
+        <member name="T:Klir.TechChallenge.SharedLib.Shared.IQuery`1">
+            <summary>
+            query interface
+            </summary>
+            <typeparam name="TResult">return value type</typeparam>
+        </member>
+        <member name="T:Klir.TechChallenge.SharedLib.Shared.IQueryHandler`2">
+            <summary>
+            query handler
+            </summary>
+            <typeparam name="TQuery">query type</typeparam>
+            <typeparam name="TResult">result value type</typeparam>
+        </member>
+        <member name="T:Klir.TechChallenge.SharedLib.Shared.Models.ProductPayload">
+            <summary>
+             product payload
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Models.ProductPayload.Name">
+            <summary>
+            product name
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Models.ProductPayload.Description">
+            <summary>
+            product description
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Models.ProductPayload.ImageUrl">
+            <summary>
+            product image url
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Models.ProductPayload.ProductType">
+            <summary>
+            product type
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Models.ProductPayload.Price">
+            <summary>
+            product price
+            </summary>
+        </member>
+        <member name="T:Klir.TechChallenge.SharedLib.Shared.Models.ProductUpdatePayload">
+            <summary>
+            update product payload
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Models.ProductUpdatePayload.Id">
+            <summary>
+            product Id
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Models.ProductUpdatePayload.ModifiedById">
+            <summary>
+            modified by which user
+            </summary>
+        </member>
+        <member name="T:Klir.TechChallenge.SharedLib.Shared.Models.ProductAddPayload">
+            <summary>
+            add product payload
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Models.ProductAddPayload.CreatedById">
+            <summary>
+            Created By which user
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Models.ProductPromoPayload.ProductQuantity">
+            <summary>
+            this is the number of product quantity to apply promo  on
+            eg. buy 1 get 1 free
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Models.ProductPromoPayload.NumberOfFreeProduct">
+            <summary>
+            this is number of free product tied to 
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Models.ProductPromoPayload.DiscountProductQuantity">
+            <summary>
+            discount product qauntity
+            eg 3 product per 10 dolar
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Models.ProductPromoPayload.DiscountProductPrice">
+            <summary>
+            discount product price
+            eg 10 dolar for 3 product
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Models.ProductPromoPayload.ProductId">
+            <summary>
+            mapping promoid
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Models.ProductPromoPayload.ProductPromoType">
+            <summary>
+            promotion type
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Models.ProductPromoPayload.PromoDescription">
+            <summary>
+            promotion description
+            </summary>
+        </member>
+        <member name="T:Klir.TechChallenge.SharedLib.Shared.Models.ProductResource">
+            <summary>
+            product response
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Models.ProductResource.Name">
+            <summary>
+            product name
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Models.ProductResource.Description">
+            <summary>
+            product description
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Models.ProductResource.ImageUrl">
+            <summary>
+            product image url
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Models.ProductResource.ProductType">
+            <summary>
+            product type
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Models.ProductResource.Price">
+            <summary>
+            product price
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Models.ProductResource.Id">
+            <summary>
+            Id 
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Models.ProductResource.IsDeleted">
+            <summary>
+            is product deleted
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Models.ProductResource.IsActive">
+            <summary>
+            is prodcut active
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Models.ProductResource.CreatedAt">
+            <summary>
+            Created at
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Models.ProductResource.UpdatedAt">
+            <summary>
+            Update at
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Models.ProductResource.CreatedById">
+            <summary>
+            Created By which user
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Models.ProductResource.ModifiedById">
+            <summary>
+            modified by which user
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Resource.PromoResource.ProductQuantity">
+            <summary>
+            this is the number of product quantity to apply promo  on
+            eg. buy 1 get 1 free
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Resource.PromoResource.NumberOfFreeProduct">
+            <summary>
+            this is number of free product tied to 
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Resource.PromoResource.DiscountProductQuantity">
+            <summary>
+            discount product qauntity
+            eg 3 product per 10 dolar
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Resource.PromoResource.DiscountProductPrice">
+            <summary>
+            discount product price
+            eg 10 dolar for 3 product
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Resource.PromoResource.ProductId">
+            <summary>
+            mapping promoid
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Resource.PromoResource.Product">
+            <summary>
+            product entity
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Resource.PromoResource.ProductPromoType">
+            <summary>
+            promotion type
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Resource.PromoResource.Id">
+            <summary>
+            promotion Id
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Resource.PromoResource.PromoDescription">
+            <summary>
+            promotion description
+            </summary>
+        </member>
+        <member name="T:Klir.TechChallenge.SharedLib.Shared.Resource.StatusResponse">
+            <summary>
+            status reponse for commands
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Resource.StatusResponse.Status">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Klir.TechChallenge.SharedLib.Shared.Resource.StatusResponse.Message">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

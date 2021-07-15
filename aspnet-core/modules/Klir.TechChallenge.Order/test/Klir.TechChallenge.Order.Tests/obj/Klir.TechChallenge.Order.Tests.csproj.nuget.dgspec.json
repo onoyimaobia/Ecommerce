@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tooch\\source\\Testing2\\aspnet-core\\modules\\Klir.TechChallenge.Order\\test\\Klir.TechChallenge.Order.Tests\\Klir.TechChallenge.Order.Tests.csproj": {}
+    "/Users/tagbo/Projects/ecommerce/Klir-TechChallenge/aspnet-core/modules/Klir.TechChallenge.Order/test/Klir.TechChallenge.Order.Tests/Klir.TechChallenge.Order.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tooch\\source\\Testing2\\aspnet-core\\modules\\Klir.TechChallenge.Order\\test\\Klir.TechChallenge.Order.Tests\\Klir.TechChallenge.Order.Tests.csproj": {
+    "/Users/tagbo/Projects/ecommerce/Klir-TechChallenge/aspnet-core/modules/Klir.TechChallenge.Order/test/Klir.TechChallenge.Order.Tests/Klir.TechChallenge.Order.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tooch\\source\\Testing2\\aspnet-core\\modules\\Klir.TechChallenge.Order\\test\\Klir.TechChallenge.Order.Tests\\Klir.TechChallenge.Order.Tests.csproj",
+        "projectUniqueName": "/Users/tagbo/Projects/ecommerce/Klir-TechChallenge/aspnet-core/modules/Klir.TechChallenge.Order/test/Klir.TechChallenge.Order.Tests/Klir.TechChallenge.Order.Tests.csproj",
         "projectName": "Klir.TechChallenge.Order.Tests",
-        "projectPath": "C:\\Users\\tooch\\source\\Testing2\\aspnet-core\\modules\\Klir.TechChallenge.Order\\test\\Klir.TechChallenge.Order.Tests\\Klir.TechChallenge.Order.Tests.csproj",
-        "packagesPath": "C:\\Users\\tooch\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tooch\\source\\Testing2\\aspnet-core\\modules\\Klir.TechChallenge.Order\\test\\Klir.TechChallenge.Order.Tests\\obj\\",
+        "projectPath": "/Users/tagbo/Projects/ecommerce/Klir-TechChallenge/aspnet-core/modules/Klir.TechChallenge.Order/test/Klir.TechChallenge.Order.Tests/Klir.TechChallenge.Order.Tests.csproj",
+        "packagesPath": "/Users/tagbo/.nuget/packages/",
+        "outputPath": "/Users/tagbo/Projects/ecommerce/Klir-TechChallenge/aspnet-core/modules/Klir.TechChallenge.Order/test/Klir.TechChallenge.Order.Tests/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\tooch\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/tagbo/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -81,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
         }
       }
     }

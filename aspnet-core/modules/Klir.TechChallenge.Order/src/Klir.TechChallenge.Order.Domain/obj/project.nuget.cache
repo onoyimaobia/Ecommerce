@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "by7oXx3ni5yNm9hAGUUPDhCXdjdyJdYNp6G5C+D8BePEyndvgrIaSNNbZ5LiJcGqg0RS+M7LzVvfRXMjjmSkZg==",
+  "dgSpecHash": "Xr1wPaY5EC3twhqWzkxXfFpj7GP2gSh/Wn5X3q+IHqGV6Uq5I920RHKFyj1cbGXK3ek3Hm8hyGDpWs42kaptpQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tooch\\source\\Testing2\\aspnet-core\\modules\\Klir.TechChallenge.Order\\src\\Klir.TechChallenge.Order.Domain\\Klir.TechChallenge.Order.Domain.csproj",
+  "projectFilePath": "/Users/tagbo/Projects/ecommerce/Klir-TechChallenge/aspnet-core/modules/Klir.TechChallenge.Order/src/Klir.TechChallenge.Order.Domain/Klir.TechChallenge.Order.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

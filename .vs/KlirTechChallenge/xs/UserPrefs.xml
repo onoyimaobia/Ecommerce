@@ -8,18 +8,6 @@
         <State name="__root__">
           <Node name="KlirTechChallenge" expanded="True">
             <Node name="modules" expanded="True">
-              <Node name="Klir.TechChallenge.Product" expanded="True">
-                <Node name="src" expanded="True">
-                  <Node name="Klir.TechChallenge.Product.Web.Api" expanded="True">
-                    <Node name="Controllers" expanded="True" />
-                    <Node name="Features" expanded="True">
-                      <Node name="Query" expanded="True">
-                        <Node name="GetProductQueryHandler.cs" selected="True" />
-                      </Node>
-                    </Node>
-                  </Node>
-                </Node>
-              </Node>
               <Node name="Klir.TechChallenge.SharedLib" expanded="True">
                 <Node name="src" expanded="True">
                   <Node name="Klir.TechChallenge.SharedLib.Shared" expanded="True">
